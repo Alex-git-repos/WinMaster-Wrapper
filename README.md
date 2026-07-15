@@ -1,5 +1,5 @@
 # WinMaster-Wrapper
-Build simple apps with ease and swagger using this C++ library! Includes a test app for showcase.
+Build simple apps with ease and swagger using this x64 C++ library! Includes a test app for showcase.
 
 <img width="285" height="190" alt="Demo" src="https://github.com/user-attachments/assets/5f75b182-f47d-4869-8d33-2c0cebe1f9d2" />
 
