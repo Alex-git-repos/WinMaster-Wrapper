@@ -1,6 +1,9 @@
 # WinMaster-Wrapper
 Build simple apps with ease and swagger using this C++ library! Includes a test app for showcase.
 
+# Warning
+## __.vs__ not included in the main branch. Visit the releases page for the corresponding __.vs__ file.
+
 <img width="285" height="190" alt="Demo" src="https://github.com/user-attachments/assets/5f75b182-f47d-4869-8d33-2c0cebe1f9d2" />
 
 ## Simplicity
