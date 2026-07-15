@@ -43,7 +43,7 @@ I'm a really bad programmer, so contributions are much needed.
   <li>Use macros for backend symbols, and constexpr for user-facing symbols (like cpaUseDefault or dwCenterAlign).</li>
   <li>All internal class variables must be private and have individual methods to return a reference to them.</li>
   <li>All classes must have custom constructors and destructors, never default ones</li>
-  <li>Of course, all allocated heap memory must be freed by the end of an object's lifetime (like in the destructor or end of method).</li>
+  <li>Of course, all allocated heap memory must be freed by the end of an object's lifetime (like in the destructor or end of method), with the exception of those wrapped in smart pointers.</li>
 </bl>
 
 ## Important note!
