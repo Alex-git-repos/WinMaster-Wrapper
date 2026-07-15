@@ -86,12 +86,14 @@ public:
 		return (HFONT)SendMessage(hWndHandle, WM_GETFONT, NULL, NULL);
 	}
 	
-	LPWSTR GetEditText() {
+	std::shared_ptr<WCHAR> GetEditText() { // Use shared_ptr so user doesn't have to free memory
 		INT32 sWindowTextLength{ GetWindowTextLength(hWndHandle) };
 		LPWSTR lpszBuffer{ new WCHAR[sWindowTextLength] };
 
 		GetWindowText(hWndHandle, lpszBuffer, sWindowTextLength);
-		return lpszBuffer;
+		std::shared_ptr<WCHAR> lpszSharedReturnBuffer{ lpszBuffer };
+
+		return lpszSharedReturnBuffer;
 	}
 
 	void DisplayWindow(INT nCmdShow) {
