@@ -17,7 +17,7 @@ MainWnd.RegisterWindowClass();
 MainWnd.GenerateWindow(Styles, Coords, L"Title", (HMENU)NULL, &AppStateData);
 MainWnd.DisplayWindow(nCmdShow);
 ```
-## Old School <u>or</u> New Gen
+## Both Old School and New Gen
 Have fun with the old-school Win32 styles, or go modern using different style combos.
 
 ## Control
