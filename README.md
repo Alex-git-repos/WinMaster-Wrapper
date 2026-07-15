@@ -6,7 +6,7 @@ Build simple apps with ease and swagger using this C++ library! Includes a test 
 <img width="285" height="190" alt="Demo" src="https://github.com/user-attachments/assets/5f75b182-f47d-4869-8d33-2c0cebe1f9d2" />
 
 ## Simplicity
-Use OOP to streamline your project.
+Use OOP to streamline your project:
 ```cpp
 MainWindowClass MainWnd(hInstance, L"ClassReg", WndProc);
 
@@ -17,7 +17,7 @@ MainWnd.RegisterWindowClass();
 MainWnd.GenerateWindow(Styles, Coords, L"Title", (HMENU)NULL, &AppStateData);
 MainWnd.DisplayWindow(nCmdShow);
 ```
-## Old School __or__ New Gen
+## Old School <u>or</u> New Gen
 Have fun with the old-school Win32 styles, or go modern using different style combos.
 
 ## Control
