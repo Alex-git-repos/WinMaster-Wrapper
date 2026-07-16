@@ -1,11 +1,1 @@
-﻿  pch.cpp
-  BasicEditControlClass.cpp
-  BasicFontClass.cpp
-  ButtonWindowClass.cpp
-  ListBoxClass.cpp
-  MainWindowClass.cpp
-  TextWindowClass.cpp
-  WinMaster Wrapper.cpp
-  WinMaster Wrapper.vcxproj -> C:\Users\ajklb\Desktop\WinMaster Repo\WinMaster-Wrapper\WinMaster Wrapper\x64\Release\WinMaster Wrapper.lib
-  Copying library header...
-          1 file(s) copied.
+﻿

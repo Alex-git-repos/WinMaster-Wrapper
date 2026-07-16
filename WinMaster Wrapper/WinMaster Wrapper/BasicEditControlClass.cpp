@@ -36,16 +36,16 @@ void BasicEditControlClass::GenerateWindow(ULONG64 nStyleArgsCombined, ULONG64 n
 
 	UINT32 nExArgs{ (UINT32)(nStyleArgsCombined & FIRST32) };
 	UINT32 nArgs{ (UINT32)((nStyleArgsCombined >> 32) & FIRST32) };
-	if (nX == cpaUseDefault) {
+	if (nX == MAXINT16) {
 		nX = CW_USEDEFAULT;
 	}
-	if (nY == cpaUseDefault) {
+	if (nY == MAXINT16) {
 		nY = CW_USEDEFAULT;
 	}
-	if (nWidth == cpaUseDefault) {
+	if (nWidth == MAXINT16) {
 		nWidth = CW_USEDEFAULT;
 	}
-	if (nHeight == cpaUseDefault) {
+	if (nHeight == MAXINT16) {
 		nHeight = CW_USEDEFAULT;
 	}
 
