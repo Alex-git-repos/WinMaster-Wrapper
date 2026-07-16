@@ -47,3 +47,6 @@ I'm a really bad programmer, so contributions are much needed.
 
 ## Important note!
 Many of the methods are untested. Do not use for production applications without thorough consideration.
+
+### Branches
+There are three branches: main, testing_development, and alpha_development. To make a contribution, fetch alpha_development. When done, PR to testing_development. You can fetch and run testing on the testing_development branch. When all code is verified, correct, and stylized properly, PR to main and I will review.
