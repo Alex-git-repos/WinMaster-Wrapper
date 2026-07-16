@@ -1,5 +1,12 @@
 ﻿  pch.cpp
-  uch.cpp
+  BasicEditControlClass.cpp
+  BasicFontClass.cpp
+  ButtonWindowClass.cpp
+  ListBoxClass.cpp
+  MainWindowClass.cpp
+  TextWindowClass.cpp
   WinMaster Wrapper.cpp
   Generating Code...
-  WinMaster Wrapper.vcxproj -> C:\Users\ajklb\source\repos\WinMaster Wrapper\x64\Debug\WinMaster Wrapper.lib
+  WinMaster Wrapper.vcxproj -> C:\Users\ajklb\Desktop\WinMaster Repo\WinMaster-Wrapper\WinMaster Wrapper\x64\Debug\WinMaster Wrapper.lib
+  Copying library header...
+          1 file(s) copied.

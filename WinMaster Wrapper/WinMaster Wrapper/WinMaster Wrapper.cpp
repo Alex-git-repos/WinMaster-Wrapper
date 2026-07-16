@@ -1,2 +1,7 @@
 #include "pch.h"
-#include "uch.h"
+#include "BasicEditControlClass.h"
+#include "BasicFontClass.h"
+#include "ButtonWindowClass.h"
+#include "ListBoxClass.h"
+#include "MainWindowClass.h"
+#include "TextWindowClass.h"

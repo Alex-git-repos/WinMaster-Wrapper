@@ -16,16 +16,34 @@
     <Filter Include="Header Files\ClassHeaders">
       <UniqueIdentifier>{9acf91c0-f507-4d2b-ba51-3b31a01b6842}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ClassImplements">
+      <UniqueIdentifier>{c3e87974-77fb-4c48-a1c3-c5c072dea79b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMaster Wrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="uch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEditControlClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFontClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonWindowClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBoxClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWindowClass.cpp">
+      <Filter>Source Files\ClassImplements</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -50,8 +68,6 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="uch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="WinMaster Wrapper.h" />
   </ItemGroup>
 </Project>
