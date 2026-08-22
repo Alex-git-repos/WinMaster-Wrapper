@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "BasicFontClass.h"
 
-BasicFontClass::BasicFontClass(UINT nSz, LPCWSTR lpszFName) : pxSizing{ nSz }, lpszFontName{ lpszFName }, hFont{ NULL } {
+BasicFontClass::BasicFontClass(UINT nSz, LPCWSTR lpszFName, DWORD dwFamily) : pxSizing{ nSz }, lpszFontName{ lpszFName }, hFont{ NULL }, dwFontFamily{ dwFamily } {
 	return;
 }
 
@@ -17,14 +17,14 @@ void BasicFontClass::RegisterFont(BOOL bItalic, BOOL bUnderline, BOOL bStrikeOut
 		0, // No escapement
 		0, // Default orientation
 		FW_NORMAL, // Normal font weight
-		bItalic, // No italics
-		bUnderline, // No underline
-		bStrikeOut, // No strikeout
+		bItalic,
+		bUnderline,
+		bStrikeOut,
 		ANSI_CHARSET,
 		OUT_TT_PRECIS,
 		CLIP_DEFAULT_PRECIS,
 		CLEARTYPE_QUALITY,
-		FIXED_PITCH | FF_MODERN, // Use "Modern" font family
+		FIXED_PITCH | dwFontFamily,
 		lpszFontName);
 	return;
 }
@@ -37,14 +37,14 @@ void BasicFontClass::ReregisterFont(BOOL bItalic, BOOL bUnderline, BOOL bStrikeO
 		0, // No escapement
 		0, // Default orientation
 		FW_NORMAL, // Normal font weight
-		bItalic, // No italics
-		bUnderline, // No underline
-		bStrikeOut, // No strikeout
+		bItalic,
+		bUnderline,
+		bStrikeOut,
 		ANSI_CHARSET,
 		OUT_TT_PRECIS,
 		CLIP_DEFAULT_PRECIS,
 		CLEARTYPE_QUALITY,
-		FIXED_PITCH | FF_MODERN, // Use "Modern" font family
+		FIXED_PITCH | dwFontFamily,
 		lpszFontName);
 	return;
 }
