@@ -1,5 +1,6 @@
 # WinMaster-Wrapper
-Build simple apps with ease and swagger using this x64 C++ library! Includes a test app for showcase. [For more info beyond this, like building and running, refer to the wiki]
+## New! Release alpha 0.2
+Build simple apps with ease and swagger using this x64 C++ library! [For more info beyond this, like building and running, refer to the wiki]
 
 <img width="285" height="190" src="https://github.com/user-attachments/assets/5f75b182-f47d-4869-8d33-2c0cebe1f9d2" />
 
@@ -47,3 +48,6 @@ I'm a really bad programmer, so contributions are much needed.
 
 ## Important note!
 Many of the methods are untested. Do not use for production applications without thorough consideration.
+
+### Branches
+There are three branches: main, testing_development, and alpha_development. To make a contribution, fetch alpha_development. When done adding your code, PR to testing_development. You can fetch and run testing on the testing_development branch. When all code is verified, correct, and stylized properly, PR to main and I will review.
