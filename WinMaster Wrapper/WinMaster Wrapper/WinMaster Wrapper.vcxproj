@@ -148,7 +148,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <CustomBuildStep>
-      <Command>copy /Y "$(ProjectDir)WinMaster Wrapper.h" "$(OutDir)"</Command>
+      <Command>cl /P /EP /TP /Fi"$(OutDir)WinMaster Wrapper.h" "$(ProjectDir)WinMaster Wrapper.h"
+powershell -NoProfile -Command "(Get-Content '$(OutDir)WinMaster Wrapper.h' -Raw) -replace '(\r?\n){3,}', '' -replace ' {4}\r?\n', '' -replace '\t\r?\n', '' | Set-Content '$(OutDir)WinMaster Wrapper.h' -NoNewline"</Command>
     </CustomBuildStep>
     <CustomBuildStep>
       <Message>Copying library header...</Message>
